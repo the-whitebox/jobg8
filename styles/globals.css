@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.colorGrey {
+  background: #f9f9f9;
+}
+.fontFamily {
+  font-family: "Poppins";
+}
+.mainDiv {
+  height: 100vh;
+}
+.btn-color {
+  background-color: #009557;
+  border-radius: 49px;
+}
+.forget-color {
+  color: #c00000;
+}
+.footer {
+  position: fixed;
+  bottom: 50px;
+}
+.logout-btn-color {
+  background-color: #003466;
+  border-radius: 5px;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
